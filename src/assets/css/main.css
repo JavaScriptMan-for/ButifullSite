@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/winter-insight');
+@font-face {
+    font-family: "Yrsa";
+    src: url("../../assets/fonts/Yrsa-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets//fonts/Poppins-Regular.ttf");
+}
+h1 {
+    font-family: "Winter Insight", sans-serif;
+    font-size: 135px;
+    color: #FF9F00;
+    font-weight: 100;
+    line-height: 96.3%;
+    margin-bottom: 10px;
+}
+h3 {
+    margin-top: 0px;
+    color: black;
+    font-family: "Winter Insight", sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+}
+h2 {
+    margin-top: 0;
+    font-family: "Yrsa", sans-serif;
+    color: #FF9F00;
+    font-size: 40px;
+    line-height: 38px;
+}
+main {
+    margin-top: 100px;
+    text-align: center;
+    width: fit-content;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#star {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09B3B0;
+    height: 250px;
+    margin-top: 200px;
+}
+#q {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+    footer {
+       margin-top: 50px;
+    }
+    #q {
+        font-size: 25px;
+    }
+   main {
+    margin-top: 0;
+   }
+}
+@media screen and (max-width: 900px) {
+    footer {
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 80px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 760px) {
+    footer {
+        margin-top: 0px;
+    }
+}

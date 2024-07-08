@@ -1,0 +1,4 @@
+<svg width="24" height="24" viewBox="0 0 24 24">
+  <line x1="2" y1="2" x2="22" y2="22" stroke="hsl(179, 90%, 37%)" stroke-width="2"/>
+  <line x1="22" y1="2" x2="2" y2="22" stroke="hsl(179, 90%, 37%)" stroke-width="2"/>
+</svg>

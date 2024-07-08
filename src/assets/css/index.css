@@ -1,0 +1,9 @@
+body {
+    background-image: url("../img/main_background.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+*  {
+    margin: 0;
+    padding: 0;
+}
